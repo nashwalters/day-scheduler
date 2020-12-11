@@ -44,6 +44,17 @@ $(".saveBtn").on("click", function() {                              //Event list
     
   });
 
+//Display Events after saved to local storage.
+var storedEvents = JSON.parse(localStorage.getItem("events"));
+
+  if (storedEvents !== null) {
+    events = storedEvents;
+  }
+
+  for(var i = 0; i < events.length; i++) {
+    var userDescription = events[i].task;
+    $("#" + events[i].timeslot).children(".description").text(userDescription);
+  }
 
 
 
