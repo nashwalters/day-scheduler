@@ -39,9 +39,7 @@ var events = [];                                                    //Saving eve
 $(".saveBtn").on("click", function() {                              //Event listener for the save button.
     var task = $(this).siblings(".description").val();
     var timeslot = $(this).parent().attr("id");
-
     events.push({timeslot:timeslot, task:task})
-    
     localStorage.setItem("events", JSON.stringify(events));         //Saving events array into local storage.
     
   });
