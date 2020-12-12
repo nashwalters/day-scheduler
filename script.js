@@ -1,6 +1,9 @@
 //Have everything on page when loaded.
-$(document).ready(function() {
-$("#currentDay").text(moment().format("LL")); 
+$("#currentDay").text(moment().format("dddd")); 
+$("#currentDay").append("<p class=date></p>"); 
+$(".date").text(moment().format("LL")); 
+$(".date").append("<p id=clock></p>"); 
+$("p").css("line-height","150%");
 
 //Function to display clock.
 function displayTime() {
