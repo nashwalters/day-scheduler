@@ -1,9 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  line-height: 1;
-  background-image: url("../day-scheduler/assets/img/background.jpg");
-  background-repeat: no-repeat;
+  line-height: 1;  
 }
 
 h1{
@@ -25,28 +23,11 @@ textarea{
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid purple;
 }
 
 .description{
   white-space: pre-wrap;
-}
-
-.time-block{
-  text-align: center;
-  border-radius: 15px;
-}
-
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
-}
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
 }
 
 .past {
@@ -63,16 +44,21 @@ textarea{
   background-color: #77dd77;
   color: white;
 }
-
+/* Style for button*/
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: purple;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+/*Style for time block*/
+.input-group-text{
+background-color: rgb(196, 172, 192);
+border : 1px solid lavender;
 }
