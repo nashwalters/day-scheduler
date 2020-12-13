@@ -4,7 +4,7 @@ $(document).ready(function() {
   $("#currentDay").append("<p class=date></p>"); 
   $(".date").text(moment().format("LL")); 
   $(".date").append("<p id=clock></p>"); 
-  $("p").css({"line-height":"150%", "color":"blue"}); 
+  $("p").css({"line-height":"150%", "color":"purple", "font-weight":"bold"}); 
   
   //Function to display clock.
   function displayTime() {
