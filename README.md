@@ -11,7 +11,7 @@ This is a simple calendar/schedule8 application that allows a user to save event
 * [License](#license)
 
 ## General Information
-As an employee having a good daily schedule is a blueprint for a sucessful work life. Knowing what you’re meant to be doing (and when) creates a sense of purpose, meaning, and focus. It helps you avoid procrastination, stay motivated, and properly manage your time. The daily schedule keeps you on track each work day. You are able to see the time, date and time blocks for traditional work hours (9am - 5pm). The time block are colour-coded based on the current time. If the time is in the past, you will not be able to enter tasks in the time blocks and it will be gray. If the current time and the time block are the same, the colour of that time block will be red. The time block will be green if the time hasn't come yet, signifying future time for that day. At the end of the day, the tasks/ notes entered for that day(midnight) are removed from local storage so you have a fresh new start for the next day.
+As an employee having a good daily schedule is a blueprint for a sucessful work life. Knowing what you’re meant to be doing (and when) creates a sense of purpose, meaning, and focus. It helps you avoid procrastination, stay motivated, and properly manage your time. This work day scheduler will keep you on track each work day. You are able to see the time, date and time blocks for traditional work hours (9am - 5pm). The time block are colour-coded based on the current time. If the time is in the past, you will not be able to enter tasks in the time blocks and it will be gray. If the current time and the time block are the same, the colour of that time block will be red. The time block will be green if the time hasn't come yet, signifying future time for that day. At the end of the day(midnight), the tasks/ notes entered for that day are removed from local storage so you have a fresh new start for the next day.
 
 ## Technology
 ![image](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
@@ -37,15 +37,15 @@ A web browser is need to view page.
 The user interface is responsive and adapts to all screen sizes. Click on the arrows to drop down images at various screen sizes.
 <details>
   <summary>Large Screen</summary>
-  <img src="" alt= "screenshot of site at 986px">
+  <img src="assets/img/screencapture-large.png" alt= "screenshot of site at 986px">
 </details>
 <details>
   <summary>Medium Screen</summary>
-   <img src="" alt= "screenshot of site at 768px">
+   <img src="assets/img/screencapture-medium.png" alt= "screenshot of site at 768px">
 </details>
 <details>
   <summary>Small Screen</summary>
-   <img src="" alt= "screenshot of site at 400px">
+   <img src="assets/img/screencapture-small.png" alt= "screenshot of site at 400px">
 </details>
 
 ## Credits
