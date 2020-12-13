@@ -1,6 +1,6 @@
 # Work Day Scheduler
 
-This is a simple calendar/schedule8 application that allows a user to save events for each hour of the day by modifying starter code.
+This is a simple calendar/scheduler application that allows users to save events for each hour of the day by modifying starter code.
 
 ## Table of Contents
 * [General Information](#general-information)
@@ -29,9 +29,9 @@ moment.js and jQuery, please click the links below.
 
 A web browser is need to view page.
 
-* Github page: []()
+* Github page: [Click Here](https://nashwalters.github.io/day-scheduler/.)
 
-* To open in a new window, copy and paste: https://<span></span>
+* To open in a new window, copy and paste: https://<span></span>nashwalters.github.io/day-scheduler/.
 
 ## Screenshots
 The user interface is responsive and adapts to all screen sizes. Click on the arrows to drop down images at various screen sizes.
