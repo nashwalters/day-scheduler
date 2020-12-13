@@ -4,14 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Work Day Scheduler</title>
+    <!-- Links for Bootstrap, font awesome, gookle fonts and style.css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <title>Work Day Scheduler</title>
+    <!-- Links end-->
   </head>
 
   <body>
+    <!-- Heading Jumbotron-->
     <header class="jumbotron">
       <div  class="bg-head" >
       <h1 class="display-3">Work Day Scheduler</h1>
@@ -19,6 +22,7 @@
       <p id="currentDay" class="lead"></p> 
     </div>
     </header>
+    <!-- Jumbotron ends-->
     <main class="container">
       <!-- Timeblocks go here -->
       <!-- 9am-->
@@ -39,13 +43,13 @@
       </section>
       <!-- 11am-->
       <section id="hour-11" class="input-group">
-        <div class="input-group-prepend test">
+        <div class="input-group-prepend">
           <span class="input-group-text">11:00 am</span>
         </div>
         <textarea id ="11" class="form-control colour description" aria-label="With textarea"></textarea>
         <button class="btn saveBtn btn-outline-secondary" type="button"><i class="fas fa-save"></i></button>
       </section>
-      <!--12pm-->
+      <!-- 12pm-->
       <section id="hour-12" class="input-group">
         <div class="input-group-prepend">
           <span class="input-group-text">12:00 pm</span>
@@ -53,7 +57,7 @@
         <textarea id ="12" class="form-control colour description" aria-label="With textarea"></textarea>
         <button class="btn saveBtn btn-outline-secondary" type="button"><i class="fas fa-save"></i></button>
       </section>
-      <!--1pm-->
+      <!-- 1pm-->
       <section id="hour-1" class="input-group">
         <div class="input-group-prepend">
           <span class="input-group-text">01:00 pm</span>
@@ -61,7 +65,7 @@
         <textarea id ="13" class="form-control colour description" aria-label="With textarea"></textarea>
         <button class="btn saveBtn btn-outline-secondary" type="button"><i class="fas fa-save"></i></button>
       </section>
-      <!--2pm-->
+      <!-- 2pm-->
       <section id="hour-2" class="input-group">
         <div class="input-group-prepend">
           <span class="input-group-text">02:00 pm</span>
@@ -69,7 +73,7 @@
         <textarea id ="14" class="form-control colour description" aria-label="With textarea"></textarea>
         <button class="btn saveBtn btn-outline-secondary" type="button"><i class="fas fa-save"></i></button>
       </section>
-      <!--3pm-->
+      <!-- 3pm-->
       <section id="hour-3" class="input-group">
         <div class="input-group-prepend">
           <span class="input-group-text">03:00 pm</span>
@@ -77,7 +81,7 @@
         <textarea id ="15" class="form-control colour description" aria-label="With textarea"></textarea>
         <button class="btn saveBtn btn-outline-secondary" type="button"><i class="fas fa-save"></i></button>
       </section>
-      <!--4pm-->
+      <!-- 4pm-->
       <section id="hour-4" class="input-group">
         <div class="input-group-prepend">
           <span class="input-group-text">04:00 pm</span>
@@ -85,12 +89,12 @@
         <textarea id ="16" class="form-control colour description" aria-label="With textarea"></textarea>
         <button class="btn saveBtn btn-outline-secondary" type="button"><i class="fas fa-save"></i></button>
       </section>
-      <!--5pm-->
-      <section id="hour-5" class="input-group">
+      <!-- 5pm-->
+      <section id="hour-4" class="input-group">
         <div class="input-group-prepend">
-          <span class="input-group-text">05:00 pm</span>
+          <span class="input-group-text">04:00 pm</span>
         </div>
-        <textarea id ="17" class="form-control colour description" aria-label="With textarea"></textarea>
+        <textarea id ="16" class="form-control colour description" aria-label="With textarea"></textarea>
         <button class="btn saveBtn btn-outline-secondary" type="button"><i class="fas fa-save"></i></button>
       </section>
       <!--Time block ends-->  
@@ -101,5 +105,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="script.js"></script>
+    <!--JS links end -->
   </body>
 </html>
