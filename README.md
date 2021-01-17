@@ -36,7 +36,7 @@ A web browser is need to view page.
 
 ## Screenshots
 <p align="center"> 
-<img src="img/wds.png" alt= "screenshot of my app" width= "500px">
+<img src="assets/img/wds.png" alt= "screenshot of my app" width= "500px">
 </p>
 
 #### The user interface is responsive and adapts to all screen sizes. Click on the arrows to drop down images at various screen sizes.
