@@ -8,6 +8,7 @@ This is a simple calendar/scheduler application that allows users to save events
 * [Deployment](#deployment)
 * [Screenshots](#screenshots)
 * [Credits](#credits)
+* [Contact](#contact)
 * [License](#license)
 
 ## General Information
@@ -34,7 +35,11 @@ A web browser is need to view page.
 * To open in a new window, copy and paste: https://<span></span>nashwalters.github.io/day-scheduler/.
 
 ## Screenshots
-The user interface is responsive and adapts to all screen sizes. Click on the arrows to drop down images at various screen sizes.
+<p align="center"> 
+<img src="img/wds.png" alt= "screenshot of my app" width= "500px">
+</p>
+
+#### The user interface is responsive and adapts to all screen sizes. Click on the arrows to drop down images at various screen sizes.
 <details>
   <summary>Large Screen</summary>
   <img src="assets/img/screencapture-large.png" alt= "screenshot of site at 986px">
@@ -55,6 +60,9 @@ The user interface is responsive and adapts to all screen sizes. Click on the ar
 * [jQuery.com](https://jquery.com/)
 * [Momentjs.com](https://momentjs.com/docs/)
 
+## Contact
+
+Nash Walters - nash.walters@outlook.com
 
 ## License 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
